@@ -1,0 +1,15 @@
+{
+  "name": "docs-shuffle",
+  "version": "1.0.0",
+  "description": "Shuffle documentation links",
+  "main": "sh docs-shuffle.sh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "go build docs-shuffle.go"
+  },
+  "author": "Anna Li-Fatou",
+  "license": "ISC",
+  "dependencies": {
+    "gradient-string": "^1.2.0"
+  }
+}
